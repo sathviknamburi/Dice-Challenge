@@ -1,0 +1,108 @@
+#container{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px 12px; 
+    border-radius: 5px;
+    background-color: rgb(30, 210, 195);
+    color: rgb(233, 239, 231);
+    cursor: pointer;
+    border: none;
+    margin: 10px 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover{
+    background-color: rgb(72, 84, 212);
+}
+
+button:active{
+    background-color: rgb(156, 7, 255);
+}
+
+input{
+    font-size: 1.2rem;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+#diceResult{
+    margin: 20px auto;
+    color: #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+#diceImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    min-height: 80px;
+}
+
+#diceImage img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 600px) {
+    #container {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+        padding: 10px 15px;
+        margin: 10px;
+    }
+
+    input {
+        font-size: 1.5rem;
+        width: 150px;
+    }
+
+    #diceResult {
+        max-width: 500px;
+        padding: 15px;
+    }
+
+    #diceImage {
+        gap: 15px;
+        margin-top: 20px;
+        min-height: 100px;
+    }
+
+    #diceImage img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+}
