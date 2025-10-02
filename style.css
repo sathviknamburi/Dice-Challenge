@@ -69,7 +69,7 @@ input{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     #container {
         font-size: 2rem;
     }
@@ -105,4 +105,5 @@ input{
         height: 80px;
         border-radius: 10px;
     }
+
 }
